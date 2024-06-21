@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="50mm"
+   height="50mm"
+   viewBox="0 0 50 50"
+   version="1.1"
+   id="svg1"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <g
+     id="layer1">
+    <rect
+       style="fill:#ffffff;stroke:none;stroke-width:0.26319"
+       id="rect1"
+       width="49.736809"
+       height="49.736809"
+       x="0.13159561"
+       y="0.13159561"
+       ry="2.8206704" />
+    <text
+       xml:space="preserve"
+       style="font-size:55.062px;font-family:Courgette;-inkscape-font-specification:Courgette;fill:#000000;stroke:none;stroke-width:0.179549"
+       x="-1.2645742"
+       y="44.271702"
+       id="text1"><tspan
+         id="tspan1"
+         style="font-style:normal;font-variant:normal;font-weight:800;font-stretch:normal;font-family:Montserrat;-inkscape-font-specification:'Montserrat Ultra-Bold';fill:#000000;stroke:none;stroke-width:0.179549"
+         x="-1.2645742"
+         y="44.271702">M</tspan></text>
+  </g>
+</svg>

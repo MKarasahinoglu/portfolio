@@ -1,0 +1,324 @@
+:root {
+  --primary: black;
+  --secondary: white;
+  --tetriary: #686D76;
+}
+
+html, body {
+  background-color: var(--primary);
+  color: var(--secondary);
+  font-family: "Montserrat";
+  font-weight: 300;
+  font-size: 14px;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  margin-top: 50px;
+  position: relative;
+}
+
+.nav-drawer {
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  min-height: 300px;
+  max-height: 500px ;
+  max-width: 300px;
+  min-width: 250px;
+  background-color: var(--secondary);
+  color: var(--primary);
+  border-radius: 0 5px 5px 0;
+  padding: 10px;
+}
+
+.view {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  max-width: 900px;
+  min-width: 250px;
+  border-radius: 5px;
+  padding: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+
+@media (min-width: 1400px) {
+  .nav-drawer {
+    position: fixed;
+    left: 0;
+  }
+
+  .view {
+    margin-left: 300px;
+    width: 900px;
+  }
+
+  .mode {
+    padding: 40px;
+  }
+}
+
+@media (min-width: 1201px) and (max-width: 1399px) {
+  .nav-drawer {
+    position: fixed;
+    left: 0;
+  }
+
+  .view {
+    margin-left: 300px;
+    width: 700px;
+  }
+
+  .mode {
+    padding: 35px;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1200px) {
+  .nav-drawer {
+    position: fixed;
+    left: 0;
+  }
+
+  .view {
+    margin-left: 300px;
+    width: 500px;
+  }
+
+  .mode {
+    padding: 30px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .nav-drawer {
+    position: fixed;
+    left: 0;
+  }
+
+  .view {
+    margin-left: 200px;
+    width: 300px;
+  }
+
+  .mode {
+    padding: 25px;
+  }
+
+  .experience {
+    flex-direction: column;
+  }
+
+  .project {
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .main {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+  }
+
+  .view {
+    margin-top: 20px;
+    width: 500px;
+    align-items: center;
+  }
+
+  .mode {
+    padding: 20px;
+  }
+
+  .experience {
+    flex-direction: column;
+  }
+
+  .project {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 480px) {
+  .main {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+  }
+
+
+  .view {
+    margin-top: 20px;
+    width: 300px;
+    align-items: start;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .mode {
+    padding: 15px;
+  }
+
+  .experience {
+    flex-direction: column;
+  }
+
+  .project {
+    flex-direction: column;
+  }
+}
+
+p {
+  margin: 5px;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: 900;
+  margin: 5px;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 5px;
+}
+
+h3 {
+  font-size: 16px;
+  font-weight: 500;
+  margin: 5px;
+}
+
+.bio {
+  flex: 1;
+}
+
+.education-social {
+  flex: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  margin-bottom: 5px;
+}
+
+a:link, a:visited, a:active {
+  color: var(--primary);
+}
+
+a:hover {
+  color: var(--tetriary);
+}
+
+a {
+  margin: 5px;
+  text-decoration: none;
+}
+
+.education {
+  margin-bottom: 10px;
+}
+
+.section {
+  padding: 10px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.experience-year {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 700;
+  opacity: 65%;
+  min-width: 150px;
+  margin-top: 5px;
+}
+
+.experience {
+  display: flex;
+  gap: 30px;
+  margin-left: 5px;
+}
+
+.skills {
+  display: flex;
+  gap: 5px;
+  margin-left: 5px;
+}
+
+.chip {
+  padding: 5px;
+  border-radius: 5px;
+  background-color: var(--secondary);
+  color: var(--primary);
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.desc {
+  margin-left: 5px;
+}
+
+.project {
+  display: flex;
+  gap: 30px;
+  margin-left: 5px;
+}
+
+img {
+  border-radius: 5px;
+  background-color: var(--secondary);
+  padding: 1px;
+  min-width: 150px;
+  max-width: 300px;
+}
+
+.project-thumbnail {
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+}
+
+.project-thumbnail:hover {
+  transform: scale(1.1);
+}
+
+.project-visit {
+  min-width: 280px;
+  background-color: var(--secondary);
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.mode {
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+.mode:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
